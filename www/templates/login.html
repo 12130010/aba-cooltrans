@@ -1,0 +1,20 @@
+<ion-view view-title="Đăng nhập">
+    <ion-content class="padding">
+            <div class="outer">
+                <div class="middle">
+                    <div class="inner">
+                        <div class="list list-inset">
+                            <img src="img/logo-aba-cooltrans.png" width="100%" />
+                            <label class="item item-input">
+                                <input type="text" placeholder="Tên đăng nhập" ng-model="userDataLogin.username">
+                            </label>
+                            <label class="item item-input">
+                                <input type="password" placeholder="Mật khẩu" ng-model="userDataLogin.password">
+                            </label>
+                        </div>
+                        <button class="button button-block button-calm" ng-click="accountController.doLogin()">Đăng nhập</button>
+                    </div>
+                </div>
+            </div>
+    </ion-content>
+</ion-view>

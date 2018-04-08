@@ -1,0 +1,9 @@
+
+//Create project
+ionic start aba-cooltrans tabs --type ionic1
+
+//add android platform
+ionic cordova platform add android
+
+//run preview
+ionic serve
